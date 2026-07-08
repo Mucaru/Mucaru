@@ -1,51 +1,102 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:1a1a2e,100:16213e&height=220&section=header&text=MUCARU&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Web%20Developer%20%E2%80%94%20Next.js%20%C2%B7%20TypeScript%20%C2%B7%20Clean%20UI&descAlignY=55&descSize=18" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=E5E5E5&center=true&vCenter=true&width=650&lines=Building+100+web+apps+in+100+days;Currently+on+Day+12%3A+Clinic+Booking+System;Next.js+%7C+TypeScript+%7C+Prisma+%7C+Supabase;Open+to+freelance+%26+collaboration" alt="Typing SVG" />
-
-<br/><br/>
-
-<a href="mailto:mrussyon@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a2e?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-1a1a2e?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://github.com/Mucaru"><img src="https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=Mucaru&style=for-the-badge&color=1a1a2e&label=PROFILE+VIEWS" />
-
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2500&pause=800&color=E8E3D3&center=true&vCenter=true&width=700&height=40&lines=mucaru%40dev+~+%25+whoami;Web+Developer+%E2%80%94+Next.js+%2F+TypeScript;150+Days%2C+150+Web+Apps+%E2%80%94+Day+13%2F150" alt="typing" />
 </div>
 
 <br/>
 
-## ⚡ about
-
-I build production-grade web apps with a focus on clean architecture and interfaces that don't feel like everyone else's template. Right now I'm running a self-directed **100 Days, 100 Web Apps** challenge — one shipped project a day, complexity going up as I go.
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  mucaru@dev  ~  % neofetch                                        │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                    │
+│   OS         Jakarta, Indonesia                                   │
+│   Role       Web Developer, Mucaru Digital Works                  │
+│   Focus      Clean architecture · Interfaces that aren't generic  │
+│   Shell      Next.js / TypeScript / Tailwind                      │
+│   Uptime     150 Days, 150 Web Apps — currently Day 13/150        │
+│   Status     Building a clinic booking system (Prisma + NextAuth) │
+│                                                                    │
+└──────────────────────────────────────────────────────────────────┘
+```
 
 <br/>
 
-## 🧠 stack
+<table align="center">
+<tr>
+<td valign="top" width="33%">
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,prisma,postgres,supabase,vercel,git&theme=dark&perline=10" />
-</div>
+**`~/stack/frontend`**
+```
+Next.js
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+```
+
+</td>
+<td valign="top" width="33%">
+
+**`~/stack/backend`**
+```
+Node.js
+Prisma
+PostgreSQL
+NextAuth
+Resend
+```
+
+</td>
+<td valign="top" width="33%">
+
+**`~/stack/tools`**
+```
+Zustand
+Zod
+Vercel
+Git
+VS Code
+```
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-## 🚀 featured builds
+### `cat challenge.log`
 
-<table>
+150 days, one shipped web app a day, complexity compounding across seven phases. Not a tutorial series — a forcing function to build production instincts under a daily deadline.
+
+```
+[✓] Phase 1  Foundation             Day 001–012   UI systems, state, API integration
+[▸] Phase 2  Medium                 Day 013–045   Auth, relational DB, transactional infra
+[ ] Phase 3  Medium-Hard            Day 046–070   Complex data flows, integrations
+[ ] Phase 4  Hard                   Day 071–090   Performance, architecture at scale
+[ ] Phase 5  Capstone Project       Day 091–100   10-sprint original product build
+[ ] Phase 6  Expert & Specialization Day 101–125  Mobile, testing, DevOps
+[ ] Phase 7  SaaS Capstone & Career  Day 126–150  Market-validated SaaS + job hunt
+
+progress  [███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]  13/150
+```
+
+<br/>
+
+### `ls ./featured`
+
+<table align="center">
 <tr>
 <td width="50%" valign="top">
 
-### Mucaru Finance App
+**`mucaru-finance-app/`**
 Multi-role finance system for e-commerce. Row-level security, atomic transactions via Postgres RPC, full audit trail.
-
-`Next.js` `Supabase` `RLS` `Zustand`
+`Next.js` `Supabase` `RLS`
 
 </td>
 <td width="50%" valign="top">
 
-### Vantara Production
-B2B production house site. Editorial type system, charcoal/ivory/gold palette, shipped to a real client.
-
+**`vantara-production/`**
+B2B production house site shipped to a real client. Editorial type system, charcoal/ivory/gold palette.
 `Next.js` `Framer Motion`
 
 </td>
@@ -53,18 +104,15 @@ B2B production house site. Editorial type system, charcoal/ivory/gold palette, s
 <tr>
 <td width="50%" valign="top">
 
-### Clinic Booking System 🔧
-*Day 12/100 — in progress*
-Full-stack scheduling platform. Role-based auth, relational schema, transactional email.
-
+**`clinic-booking-system/`** — *building now, Day 13*
+Role-based auth, relational schema, transactional email. First project with real multi-actor access control.
 `NextAuth` `Prisma` `Neon` `Resend`
 
 </td>
 <td width="50%" valign="top">
 
-### Capy Russyon
-Full-stack TypeScript app built with clean, scalable architecture from day one.
-
+**`capy-russyon/`**
+Full-stack TypeScript app, clean architecture from the first commit.
 `TypeScript` `Next.js`
 
 </td>
@@ -73,71 +121,15 @@ Full-stack TypeScript app built with clean, scalable architecture from day one.
 
 <br/>
 
-## 📅 100 days, 100 web apps
-
-```
-Day 01–08   Foundations         UI systems, state machines, API integration
-Day 09–11   Product depth       Accessibility, animation, multi-role auth
-Day 12+     Relational systems  Prisma, NextAuth, transactional infra
-```
+### `git log --stat`
 
 <div align="center">
-
-`▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **12/100**
-
-</div>
-
-<br/>
-
-## 📊 stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Mucaru&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0f0f1e&title_color=ffffff&icon_color=8be9fd&text_color=cdd6f4&hide_rank=false" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mucaru&layout=compact&hide_border=true&theme=tokyonight&bg_color=0f0f1e&title_color=ffffff&text_color=cdd6f4" height="165"/>
-
-<img src="https://streak-stats.demolab.com/?user=Mucaru&hide_border=true&theme=tokyonight&background=0f0f1e&stroke=ffffff&ring=8be9fd&fire=ff79c6&currStreakLabel=8be9fd" />
-
-</div>
-
-> 💡 Kalau card di atas tidak muncul (kotak kosong/broken icon), itu server `github-readme-stats` publik lagi rate-limited — bukan salah kode kamu. Refresh halaman beberapa saat lagi, biasanya balik normal.
-
-<br/>
-
-## 📈 activity graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mucaru&theme=tokyo-night&hide_border=true&bg_color=0f0f1e&color=8be9fd&line=ff79c6&point=ffffff" width="100%"/>
-
-</div>
-
-<br/>
-
-## 🐍 contribution snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Mucaru/Mucaru/output/github-contribution-grid-snake-dark.svg" width="100%" />
-
-</div>
-
-<br/>
-
-## 🏆 trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Mucaru&theme=darkhub&no-frame=true&column=4&margin-w=10&margin-h=10" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=Mucaru&show_icons=true&hide_border=true&theme=nightowl&bg_color=0d1117&title_color=E8E3D3&icon_color=C9A66B&text_color=8b949e&hide_rank=true" height="150"/>
+<img src="https://streak-stats.demolab.com/?user=Mucaru&hide_border=true&theme=nightowl&background=0d1117&stroke=0d1117&ring=C9A66B&fire=C9A66B&currStreakLabel=E8E3D3&sideLabels=8b949e&dates=8b949e" height="150"/>
 </div>
 
 <br/>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0f0f0f&height=120&section=footer" width="100%"/>
-
-*building in public — one day at a time* 🚀
-
+<sub>building in public — one commit at a time</sub>
 </div>
