@@ -1,0 +1,58 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d13"/>
+      <stop offset="100%" stop-color="#17151f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="300" rx="10" fill="url(#bg3)"/>
+  <rect width="900" height="300" rx="10" fill="none" stroke="#C9A66B33" stroke-width="1"/>
+
+  <text x="40" y="38" font-family="JetBrains Mono, monospace" font-size="14" fill="#8b8577">cat challenge.log</text>
+  <line x1="40" y1="50" x2="860" y2="50" stroke="#C9A66B22" stroke-width="1"/>
+
+  <!-- rows: y positions -->
+  <g font-family="JetBrains Mono, monospace" font-size="13">
+
+    <text x="40" y="80" fill="#C9A66B">✓</text>
+    <text x="65" y="80" fill="#c9c4b8">Phase 1  Foundation</text>
+    <text x="280" y="80" fill="#6b6558">Day 001–012</text>
+    <text x="420" y="80" fill="#8b8577">UI systems, state, API integration</text>
+
+    <text x="40" y="107" fill="#E8D5A8">▸</text>
+    <text x="65" y="107" fill="#E8D5A8">Phase 2  Medium</text>
+    <text x="280" y="107" fill="#6b6558">Day 013–045</text>
+    <text x="420" y="107" fill="#8b8577">Auth, relational DB, transactional infra</text>
+
+    <text x="40" y="134" fill="#4a473e">□</text>
+    <text x="65" y="134" fill="#6b6558">Phase 3  Medium-Hard</text>
+    <text x="280" y="134" fill="#6b6558">Day 046–070</text>
+    <text x="420" y="134" fill="#5a564a">Complex data flows, integrations</text>
+
+    <text x="40" y="161" fill="#4a473e">□</text>
+    <text x="65" y="161" fill="#6b6558">Phase 4  Hard</text>
+    <text x="280" y="161" fill="#6b6558">Day 071–090</text>
+    <text x="420" y="161" fill="#5a564a">Performance, architecture at scale</text>
+
+    <text x="40" y="188" fill="#4a473e">□</text>
+    <text x="65" y="188" fill="#6b6558">Phase 5  Capstone Project</text>
+    <text x="280" y="188" fill="#6b6558">Day 091–100</text>
+    <text x="420" y="188" fill="#5a564a">10-sprint original product build</text>
+
+    <text x="40" y="215" fill="#4a473e">□</text>
+    <text x="65" y="215" fill="#6b6558">Phase 6  Expert &amp; Specialization</text>
+    <text x="280" y="215" fill="#6b6558">Day 101–125</text>
+    <text x="420" y="215" fill="#5a564a">Mobile, testing, DevOps</text>
+
+    <text x="40" y="242" fill="#4a473e">□</text>
+    <text x="65" y="242" fill="#6b6558">Phase 7  SaaS Capstone &amp; Career</text>
+    <text x="280" y="242" fill="#6b6558">Day 126–150</text>
+    <text x="420" y="242" fill="#5a564a">Market-validated SaaS + job hunt</text>
+
+  </g>
+
+  <text x="40" y="278" font-family="JetBrains Mono, monospace" font-size="13" fill="#8b8577">progress</text>
+  <rect x="120" y="266" width="600" height="14" rx="7" fill="#ffffff10"/>
+  <rect x="120" y="266" width="52" height="14" rx="7" fill="#C9A66B"/>
+  <text x="735" y="278" font-family="JetBrains Mono, monospace" font-size="13" fill="#E8D5A8">13/150</text>
+</svg>
